@@ -60,6 +60,22 @@
     }
 
     .nav-links a:hover { color: var(--white); }
+/* MOBILE NAV SCROLL FIX */
+@media (max-width:768px){
+
+.nav-links{
+overflow-x:auto;
+white-space:nowrap;
+gap:20px;
+padding-bottom:5px;
+scrollbar-width:none;
+}
+
+.nav-links::-webkit-scrollbar{
+display:none;
+}
+
+}
 
     /* HERO */
     .hero {
