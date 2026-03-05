@@ -504,4 +504,77 @@
     ::-webkit-scrollbar-track { background: var(--bg); }
     ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
     ::-webkit-scrollbar-thumb:hover { background: var(--accent); }
+
+/* ===== MOBILE FIX ===== */
+
+@media (max-width:768px){
+
+/* NAVBAR */
+nav{
+padding:16px 20px;
+}
+
+/* HERO */
+.hero{
+padding:100px 20px 60px;
+}
+
+.hero h1{
+font-size:36px;
+}
+
+.hero-desc{
+max-width:100%;
+}
+
+.hero-stats{
+gap:20px;
+flex-wrap:wrap;
+}
+
+/* SECTIONS */
+section{
+padding:60px 20px;
+}
+
+/* ABOUT */
+.about-grid{
+grid-template-columns:1fr;
+gap:30px;
+}
+
+.about-cards{
+grid-template-columns:1fr;
+}
+
+/* SKILLS */
+.skills-grid{
+grid-template-columns:1fr 1fr;
+}
+
+/* PROJECTS */
+.projects-grid{
+grid-template-columns:1fr;
+}
+
+/* EDUCATION */
+.edu-card{
+flex-direction:column;
+align-items:flex-start;
+gap:8px;
+}
+
+.edu-right{
+text-align:left;
+}
+
+/* FOOTER */
+footer{
+flex-direction:column;
+gap:10px;
+text-align:center;
+padding:20px;
+}
+
+}
   
